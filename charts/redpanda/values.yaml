@@ -216,7 +216,7 @@ storage:
   # If `enabled` is `true` then a PersistentVolumeClaim will be created and
   # used to store Redpanda's data, otherwise `hostPath` is used.
   persistentVolume:
-    enabled: true
+    enabled: false
     size: 20Gi
     # If defined, then `storageClassName: <storageClass>`.
     # If set to "-", then `storageClassName: ""`, which disables dynamic
